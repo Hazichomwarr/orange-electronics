@@ -4,6 +4,8 @@ import Image from "next/image";
 export default function Hero2() {
   return (
     <section className="relative bg-white py-20 md:py-28">
+      {/* subtle overlay
+      <div className="absolute inset-0 bg-black/10 transition" /> */}
       <Container>
         <div className="grid items-center gap-12 md:grid-cols-2">
           {/* LEFT */}
