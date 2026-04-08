@@ -39,8 +39,7 @@ export default function Footer() {
         {/* bottom */}
 
         <div className="mt-10 border-t border-neutral-800 pt-6 text-sm text-neutral-500 text-center">
-          <div className="mb-4 border-b border-neutral-700" />©
-          {new Date().getFullYear()} Orange Electronics. All rights reserved.
+          ©{new Date().getFullYear()} Orange Electronics. All rights reserved.
         </div>
       </Container>
     </footer>

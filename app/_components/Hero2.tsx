@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Hero2() {
   return (
-    <section className="relative bg-white py-20 md:py-28">
+    <section className="relative bg-orange-50 py-20 md:py-28">
       {/* subtle overlay
       <div className="absolute inset-0 bg-black/10 transition" /> */}
       <Container>
