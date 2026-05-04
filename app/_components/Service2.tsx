@@ -21,7 +21,7 @@ const services = [
 
 export default function Service2() {
   return (
-    <section className="bg-white py-20">
+    <section id="services" className="bg-white py-20">
       <Container>
         {/* header */}
         <div className="max-w-2xl">
@@ -49,7 +49,7 @@ export default function Service2() {
         </div>
 
         {/* CTA */}
-        <div className="mt-10">
+        <div className="mt-10 flex items-center gap-4">
           <a href="tel:+11234567890">
             <Button className="px-6 py-3 text-base font-semibold">
               📞 Call Now for Fast Service

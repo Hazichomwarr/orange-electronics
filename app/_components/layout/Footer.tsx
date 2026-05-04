@@ -19,10 +19,18 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-white">Categories</h4>
             <ul className="mt-3 space-y-2 text-sm">
-              <li>Phones</li>
-              <li>TVs</li>
-              <li>Car Audio</li>
-              <li>Accessories</li>
+              <li>
+                <a href="#category">Phones</a>
+              </li>
+              <li>
+                <a href="#category">TVs</a>
+              </li>
+              <li>
+                <a href="#category">Car Audio</a>
+              </li>
+              <li>
+                <a href="#category">Accessories</a>
+              </li>
             </ul>
           </div>
 
@@ -30,8 +38,26 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-white">Contact</h4>
             <ul className="mt-3 space-y-2 text-sm">
-              <li>📞 Call</li>
-              <li>📍 Directions</li>
+              <li>
+                <a
+                  href="https://orange-electronics-5815.myshopify.com"
+                  target="_blank"
+                >
+                  🛒 Shop Online
+                </a>
+              </li>
+              <li>
+                <a href="tel+9294537790">📞 Call</a>
+              </li>
+              <li>
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=207+Main+Street,+City+of+Orange,+NJ+07050"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  📍 Directions
+                </a>
+              </li>
             </ul>
           </div>
         </div>

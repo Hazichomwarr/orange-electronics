@@ -2,7 +2,7 @@ import { Container, Button } from "@/components/ui";
 
 export default function LocationCTA() {
   return (
-    <section className=" py-20">
+    <section id="location" className=" py-20">
       <Container>
         <div className="p-6 bg-black rounded-2xl border shadow-md text-white">
           {/* header */}
@@ -15,14 +15,17 @@ export default function LocationCTA() {
 
           {/* details */}
           <div className="mt-6 space-y-2 text-sm">
-            <p>📍 Orange, New Jersey</p>
+            <p>📍 207 Main Street, City of Orange, NJ 07050</p>
             <p>🕒 Open daily</p>
             <p>🚶 Walk-ins welcome</p>
           </div>
 
           {/* CTA */}
           <div className="mt-8 flex flex-wrap gap-4">
-            <a href="#">
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=207+Main+Street,+City+of+Orange,+NJ+07050"
+              target="_blank"
+            >
               <Button className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-3 text-base font-semibold">
                 📍 Get Directions
               </Button>
@@ -31,7 +34,7 @@ export default function LocationCTA() {
             <a href="tel:+11234567890">
               <Button
                 variant="outline"
-                className="px-6 py-3 text-base font-semibold"
+                className="px-6 py-3 text-base font-semibold hover:text-black"
               >
                 📞 Call Now
               </Button>

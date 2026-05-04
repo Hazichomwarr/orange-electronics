@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Hero2() {
   return (
-    <section className="relative bg-orange-50 py-20 md:py-28">
+    <section id="hero" className="relative bg-orange-50 py-20 md:py-28">
       {/* subtle overlay
       <div className="absolute inset-0 bg-black/10 transition" /> */}
       <Container>
@@ -28,13 +28,17 @@ export default function Hero2() {
 
             {/* CTA */}
             <div className="mt-8 flex flex-wrap gap-4">
-              <a href="tel:+11234567890">
-                <Button className="px-6 py-3 text-base font-semibold">
+              <a href="tel:+9294537790">
+                <Button className="bg-orange-600 hover:bg-orange-700 text-white px-7 py-3.5 text-base font-semibold shadow-md">
                   📞 Call Now
                 </Button>
               </a>
 
-              <a href="#">
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=207+Main+Street,+City+of+Orange,+NJ+07050"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button
                   variant="secondary"
                   className="px-6 py-3 text-base font-semibold"
@@ -50,6 +54,14 @@ export default function Hero2() {
               <span>•</span>
               <span>Installation available</span>
             </div>
+
+            <a
+              href="https://orange-electronics-5815.myshopify.com"
+              target="_blank"
+              className="text-sm text-neutral-600 underline hover:text-neutral-900"
+            >
+              shop our speakers online? Browse our store →
+            </a>
           </div>
 
           {/* RIGHT */}

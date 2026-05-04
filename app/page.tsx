@@ -13,7 +13,6 @@ export default function page() {
       <Categories2 />
       <Service2 />
       <Trust2 />
-      {/* last 3 bellow empty */}
       <Testimonials />
       <LocationCTA />
       <Footer />

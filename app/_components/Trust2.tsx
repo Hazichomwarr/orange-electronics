@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Trust2() {
   return (
-    <section className="bg-orange-50 py-20">
+    <section id="trust" className="bg-orange-50 py-20">
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-6">
           {/* header */}
@@ -50,6 +50,7 @@ export default function Trust2() {
               alt="customer service"
               width={600}
               height={600}
+              className="rounded-2xl object-cover h-full"
             />
           </div>
         </div>

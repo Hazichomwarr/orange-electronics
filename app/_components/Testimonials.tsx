@@ -17,7 +17,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="bg-neutral-50 py-20">
+    <section id="testimonials" className="bg-neutral-50 py-20">
       <Container>
         {/* header */}
         <div className="max-w-2xl">
@@ -36,6 +36,7 @@ export default function Testimonials() {
               key={t.name}
               className="rounded-xl border border-neutral-200 p-6 shadow-sm"
             >
+              <p className="text-yellow-500">★★★★★</p>
               <p className="text-sm text-neutral-700 leading-relaxed">
                 “{t.text}”
               </p>
