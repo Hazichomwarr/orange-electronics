@@ -72,6 +72,7 @@ export default function Hero2() {
               width={800}
               height={600}
               className="rounded-xl object-cover shadow-sm"
+              priority
             />
           </div>
         </div>

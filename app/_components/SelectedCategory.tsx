@@ -1,8 +1,11 @@
+// app/_components/SelectedCategory.tsx
+
 "use client";
 
 import { Product } from "@/lib/products";
+import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function SelectedCatgory({
   slug,
@@ -49,9 +52,19 @@ export default function SelectedCatgory({
             key={p.id}
             className="border border-neutral-100 bg-white shadow rounded-2xl p-4 hover:shadow-lg transition"
           >
-            <div className="h-40 bg-gray-100 mb-4 rounded-xl flex items-center justify-center text-gray-400">
-              Image
-            </div>
+            {p.imagSrc ? (
+              <Image
+                src={p.imagSrc}
+                alt={p.name}
+                width={400}
+                height={300}
+                className="h-40 w-full object-cover rounded-xl"
+              />
+            ) : (
+              <div className="h-40 bg-gray-100 rounded-xl flex items-center justify-center text-gray-400">
+                No Image
+              </div>
+            )}
 
             <h3 className="font-semibold">{p.name}</h3>
 

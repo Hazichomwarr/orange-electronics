@@ -1,5 +1,5 @@
+// app/category/[slug]/page.tsx
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import { productCatalog } from "@/lib/products";
 import SelectedCatgory from "@/app/_components/SelectedCategory";
 

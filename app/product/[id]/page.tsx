@@ -1,12 +1,14 @@
+// app/product/[id]/page.tsx
 import { productCatalog } from "@/lib/products";
+import Image from "next/image";
 
 export default async function ProductPage({
   params,
 }: {
-  params: Promise<{ id: number }>;
+  params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const product = productCatalog.find((p) => p.id === id);
+  const product = productCatalog.find((p) => p.id === Number(id));
   console.log("product", product);
   if (!product) return <div>Not found</div>;
 
@@ -14,9 +16,19 @@ export default async function ProductPage({
     <div className="bg-white min-h-screen px-6 py-10">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-start">
         {/* Image */}
-        <div className="bg-gray-100 rounded-2xl h-87.5 flex items-center justify-center text-gray-400">
-          Product Image
-        </div>
+        {product.imagSrc ? (
+          <Image
+            src={product.imagSrc}
+            alt={product.name}
+            width={400}
+            height={300}
+            className="h-40 w-full object-cover rounded-xl"
+          />
+        ) : (
+          <div className="h-40 bg-gray-100 rounded-xl flex items-center justify-center text-gray-400">
+            No Image
+          </div>
+        )}
 
         {/* Info */}
         <div>
