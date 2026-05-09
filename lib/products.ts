@@ -57,7 +57,7 @@ export const productCatalog: Product[] = [
     category: "bluetooth-speakers",
     desc: "Portable speakers with loud sound and party-ready performance.",
     tag: "Best Deal",
-    imagSrc: "/categories/phones/gemini.jpeg",
+    imagSrc: "/categories/bluetooth-speakers/gemini.jpg",
   },
 
   {
@@ -67,7 +67,7 @@ export const productCatalog: Product[] = [
     category: "bluetooth-speakers",
     desc: "Premium JBL speakers with powerful bass and crystal-clear audio.",
     tag: "Popular",
-    imagSrc: "/categories/phones/jbl-speaker.jpeg",
+    imagSrc: "/categories/bluetooth-speakers/jbl-speaker.jpg",
   },
 
   {
@@ -77,7 +77,7 @@ export const productCatalog: Product[] = [
     category: "bluetooth-speakers",
     desc: "Affordable wireless speakers built for everyday listening.",
     tag: "Budget",
-    imagSrc: "/categories/phones/worry-free.jpeg",
+    imagSrc: "/categories/bluetooth-speakers/worry-free.jpg",
   },
 
   {
@@ -87,7 +87,7 @@ export const productCatalog: Product[] = [
     category: "bluetooth-speakers",
     desc: "Compact Bluetooth speakers with strong sound and LED party effects.",
     tag: "Best Deal",
-    imagSrc: "/categories/phones/qfx.jpeg",
+    imagSrc: "/categories/bluetooth-speakers/qfx.jpg",
   },
 
   {
@@ -97,7 +97,7 @@ export const productCatalog: Product[] = [
     category: "bluetooth-speakers",
     desc: "Professional-quality audio equipment trusted by performers and DJs.",
     tag: "Premium",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/bluetooth-speakers/shure.jpg",
   },
 
   // ======================
@@ -111,7 +111,7 @@ export const productCatalog: Product[] = [
     category: "accessories",
     desc: "Fast portable charging solutions for phones, tablets, and devices.",
     tag: "Budget",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/accessories/chargers.jpg",
   },
 
   {
@@ -121,7 +121,7 @@ export const productCatalog: Product[] = [
     category: "accessories",
     desc: "Smart Bluetooth watches with fitness tracking and mobile connectivity.",
     tag: "Popular",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/accessories/bt-watches.jpg",
   },
 
   {
@@ -131,7 +131,7 @@ export const productCatalog: Product[] = [
     category: "accessories",
     desc: "Samsung smartwatches with sleek design and advanced mobile features.",
     tag: "Premium",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/accessories/samsung-bt-watches.jpg",
   },
 
   {
@@ -141,7 +141,7 @@ export const productCatalog: Product[] = [
     category: "accessories",
     desc: "Clear and reliable microphones for music, events, and performances.",
     tag: "Popular",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/accessories/jbl-microphone.jpg",
   },
 
   {
@@ -151,7 +151,7 @@ export const productCatalog: Product[] = [
     category: "accessories",
     desc: "Wireless earbuds with immersive sound and seamless connectivity.",
     tag: "Premium",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/accessories/airpods.jpg",
   },
 
   {
@@ -161,7 +161,7 @@ export const productCatalog: Product[] = [
     category: "accessories",
     desc: "Replacement TV remotes compatible with most major brands.",
     tag: "Best Deal",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/accessories/tv-remotes.jpg",
   },
 
   // ======================
@@ -175,7 +175,7 @@ export const productCatalog: Product[] = [
     category: "tvs",
     desc: "Smart Samsung TVs with vivid picture quality and modern features.",
     tag: "Popular",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/phones/samsungs.jpeg",
   },
 
   {
@@ -185,7 +185,7 @@ export const productCatalog: Product[] = [
     category: "tvs",
     desc: "Reliable LG televisions with sharp visuals and smooth streaming.",
     tag: "Popular",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/phones/samsungs.jpeg",
   },
 
   {
@@ -195,7 +195,7 @@ export const productCatalog: Product[] = [
     category: "tvs",
     desc: "Affordable smart TVs with large displays and excellent value.",
     tag: "Budget",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/phones/samsungs.jpeg",
   },
 
   // ======================
@@ -204,12 +204,12 @@ export const productCatalog: Product[] = [
 
   {
     id: 18,
-    name: "HP PCs",
+    name: "HP",
     price: "$245",
     category: "laptops",
     desc: "Reliable HP laptops for work, school, and daily productivity.",
     tag: "Popular",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/laptops/hp.jpg",
   },
 
   {
@@ -219,7 +219,7 @@ export const productCatalog: Product[] = [
     category: "laptops",
     desc: "Dell computers designed for performance, multitasking, and reliability.",
     tag: "Popular",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/laptops/dell.jpg",
   },
 
   {
@@ -229,7 +229,7 @@ export const productCatalog: Product[] = [
     category: "laptops",
     desc: "Lenovo laptops with durable design and efficient everyday performance.",
     tag: "Budget",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/laptops/lenovo.jpg",
   },
 
   // ======================
@@ -243,7 +243,7 @@ export const productCatalog: Product[] = [
     category: "car-audio",
     desc: "High-performance car audio systems built for loud and powerful sound.",
     tag: "Popular",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/car-audio/comando.jpg",
   },
 
   {
@@ -253,7 +253,7 @@ export const productCatalog: Product[] = [
     category: "car-audio",
     desc: "Professional-grade speakers engineered for premium audio performance.",
     tag: "Premium",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/car-audio/b-c.jpg",
   },
 
   {
@@ -263,7 +263,7 @@ export const productCatalog: Product[] = [
     category: "car-audio",
     desc: "Trusted Pioneer audio systems with deep bass and clear sound quality.",
     tag: "Popular",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/car-audio/pioneer.jpg",
   },
 
   {
@@ -273,7 +273,7 @@ export const productCatalog: Product[] = [
     category: "car-audio",
     desc: "DS18 car audio equipment designed for extreme sound performance.",
     tag: "Premium",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/car-audio/ds18.jpg",
   },
 
   {
@@ -283,7 +283,7 @@ export const productCatalog: Product[] = [
     category: "car-audio",
     desc: "Powerful car audio solutions for custom sound system builds.",
     tag: "Popular",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/car-audio/xt-audio.jpg",
   },
 
   {
@@ -293,7 +293,7 @@ export const productCatalog: Product[] = [
     category: "car-audio",
     desc: "High-power amplifiers and audio equipment for serious sound enthusiasts.",
     tag: "Premium",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/car-audio/taramps.jpg",
   },
 
   {
@@ -303,7 +303,7 @@ export const productCatalog: Product[] = [
     category: "car-audio",
     desc: "Premium loudspeakers built for powerful and professional audio setups.",
     tag: "Premium",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/car-audio/sound18.jpg",
   },
 
   {
@@ -313,7 +313,7 @@ export const productCatalog: Product[] = [
     category: "car-audio",
     desc: "Kicker speakers and subwoofers delivering rich bass and clean sound.",
     tag: "Popular",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/car-audio/kicker.jpg",
   },
 
   {
@@ -323,7 +323,7 @@ export const productCatalog: Product[] = [
     category: "car-audio",
     desc: "Heavy-duty audio systems designed for loud and immersive performance.",
     tag: "Premium",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/car-audio/massive-audio.jpg",
   },
 
   {
@@ -333,7 +333,7 @@ export const productCatalog: Product[] = [
     category: "car-audio",
     desc: "Reliable car entertainment systems with modern audio features.",
     tag: "Popular",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/car-audio/clarion.jpg",
   },
 
   {
@@ -343,7 +343,7 @@ export const productCatalog: Product[] = [
     category: "car-audio",
     desc: "Affordable sound equipment for custom vehicle audio installations.",
     tag: "Budget",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/car-audio/yr-audio.jpg",
   },
 
   // ======================
@@ -357,7 +357,7 @@ export const productCatalog: Product[] = [
     category: "car-alarms",
     desc: "Advanced car security and remote-start systems for everyday protection.",
     tag: "Popular",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/car-alarms/compustar.jpg",
   },
 
   {
@@ -367,7 +367,7 @@ export const productCatalog: Product[] = [
     category: "car-alarms",
     desc: "Reliable vehicle alarm systems designed for added security and convenience.",
     tag: "Popular",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/car-alarms/avatar.jpg",
   },
 
   // ======================
@@ -381,17 +381,17 @@ export const productCatalog: Product[] = [
     category: "gaming",
     desc: "Next-generation PlayStation gaming with stunning graphics and fast performance.",
     tag: "Popular",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/gaming/ps5.png",
   },
 
   {
     id: 35,
-    name: "V52",
+    name: "VR2",
     price: "$245",
     category: "gaming",
     desc: "Gaming accessories and entertainment systems for immersive gameplay.",
     tag: "Best Deal",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/gaming/vr2.png",
   },
 
   {
@@ -401,7 +401,7 @@ export const productCatalog: Product[] = [
     category: "gaming",
     desc: "Xbox consoles and gaming gear built for smooth online and offline gaming.",
     tag: "Popular",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/gaming/xbox.png",
   },
 
   {
@@ -411,7 +411,7 @@ export const productCatalog: Product[] = [
     category: "gaming",
     desc: "Wireless PS5 controllers designed for responsive and immersive gameplay.",
     tag: "Popular",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/gaming/ps5-remote.jpg",
   },
 
   {
@@ -421,7 +421,7 @@ export const productCatalog: Product[] = [
     category: "gaming",
     desc: "Comfortable Xbox controllers with precision controls for competitive gaming.",
     tag: "Popular",
-    imagSrc: "/categories/phones/samsung.jpeg",
+    imagSrc: "/categories/gaming/xbox-remote.jpg",
   },
 
   // ======================
@@ -435,7 +435,7 @@ export const productCatalog: Product[] = [
     category: "headphones",
     desc: "Comfortable wireless headphones with strong bass and all-day listening.",
     tag: "Popular",
-    imagSrc: "/categories/headphones/jbl-headphone.jpeg",
+    imagSrc: "/categories/headphones/jbl-headphones.jpg",
   },
   {
     id: 40,
@@ -444,7 +444,7 @@ export const productCatalog: Product[] = [
     category: "headphones",
     desc: "Stylish over-ear headphones with powerful sound and deep bass response.",
     tag: "Popular",
-    imagSrc: "/categories/headphones/skull-candy.jpeg",
+    imagSrc: "/categories/headphones/skullcandy.jpg",
   },
   {
     id: 41,
@@ -453,7 +453,7 @@ export const productCatalog: Product[] = [
     category: "headphones",
     desc: "Premium wireless earbuds with clear sound and seamless Apple connectivity.",
     tag: "Premium",
-    imagSrc: "/categories/headphones/airpods.jpeg",
+    imagSrc: "/categories/accessories/airpods.jpg",
   },
   {
     id: 42,
@@ -462,16 +462,16 @@ export const productCatalog: Product[] = [
     category: "headphones",
     desc: "Reliable Sony headphones with balanced audio and comfortable fit.",
     tag: "Popular",
-    imagSrc: "/categories/headphones/sony.jpeg",
+    imagSrc: "/categories/headphones/sony-headphones.jpg",
   },
   {
     id: 43,
-    name: "NONICA Wireless Earbuds",
+    name: "MONICA Wireless Earbuds",
     price: "$35",
     category: "headphones",
     desc: "Affordable Bluetooth earbuds perfect for music, calls, and daily use.",
     tag: "Budget",
-    imagSrc: "/categories/headphones/nonica.jpeg",
+    imagSrc: "/categories/headphones/monica-earbuds.jpg",
   },
   {
     id: 44,
@@ -480,7 +480,7 @@ export const productCatalog: Product[] = [
     category: "headphones",
     desc: "Wireless RCA headphones with crisp sound and long battery life.",
     tag: "Budget",
-    imagSrc: "/categories/headphones/rca.jpeg",
+    imagSrc: "/categories/headphones/rca-headphones.jpg",
   },
 
   // ======================
@@ -494,7 +494,7 @@ export const productCatalog: Product[] = [
     category: "dj-stuff",
     desc: "Durable DJ and studio audio cables designed for clean, reliable sound connections.",
     tag: "Popular",
-    imagSrc: "/categories/dj/stuff1.jpeg",
+    imagSrc: "/categories/dj-stuff/xlr-cables.jpg",
   },
   {
     id: 46,
@@ -503,7 +503,7 @@ export const productCatalog: Product[] = [
     category: "dj-stuff",
     desc: "Essential DJ and speaker connection cables for mixers, amplifiers, and sound systems.",
     tag: "Popular",
-    imagSrc: "/categories/dj/stuff2.jpeg",
+    imagSrc: "/categories/dj-stuff/audio-cables.jpg",
   },
   {
     id: 47,
@@ -512,7 +512,7 @@ export const productCatalog: Product[] = [
     category: "dj-stuff",
     desc: "High-powered DJ speakers with deep bass and loud, clear sound for events and parties.",
     tag: "Premium",
-    imagSrc: "/categories/dj/stuff3.jpeg",
+    imagSrc: "/categories/dj-stuff/dj-speaker-sys.jpg",
   },
 
   // ======================
@@ -526,7 +526,7 @@ export const productCatalog: Product[] = [
     category: "ebikes",
     desc: "Powerful electric bike with fat tires, LED lights, and long-range battery performance.",
     tag: "Popular",
-    imagSrc: "/categories/ebikes/ebike1.jpeg",
+    imagSrc: "/categories/ebikes/flat-tire-bike.jpg",
   },
   {
     id: 49,
@@ -535,7 +535,7 @@ export const productCatalog: Product[] = [
     category: "ebikes",
     desc: "Comfortable foldable-style electric bike built for city riding and everyday commuting.",
     tag: "Popular",
-    imagSrc: "/categories/ebikes/ebike2.jpeg",
+    imagSrc: "/categories/ebikes/compact-bike.jpg",
   },
 
   // ======================
@@ -549,7 +549,7 @@ export const productCatalog: Product[] = [
     category: "scooters",
     desc: "Portable electric scooter with strong motor power and smooth urban riding.",
     tag: "Popular",
-    imagSrc: "/categories/scooters/scooter1.jpeg",
+    imagSrc: "/categories/scooters/electric-kick.jpg",
   },
   {
     id: 51,
@@ -558,7 +558,7 @@ export const productCatalog: Product[] = [
     category: "scooters",
     desc: "Street-ready motor scooter designed for reliable transportation and comfortable riding.",
     tag: "Premium",
-    imagSrc: "/categories/scooters/scooter2.jpeg",
+    imagSrc: "/categories/scooters/motor.jpg",
   },
   {
     id: 52,
@@ -567,6 +567,6 @@ export const productCatalog: Product[] = [
     category: "scooters",
     desc: "Modern sporty scooter with aggressive styling, LED lighting, and smooth acceleration.",
     tag: "Premium",
-    imagSrc: "/categories/scooters/scooter3.jpeg",
+    imagSrc: "/categories/scooters/sport-electric.jpg",
   },
 ];

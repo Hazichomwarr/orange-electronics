@@ -1,6 +1,7 @@
 "use client";
 
 import { Container } from "@/components/ui";
+import { BUSINESS_PHONE } from "@/lib/businessInfo";
 import { useState } from "react";
 
 export default function Navbar() {
@@ -34,7 +35,7 @@ export default function Navbar() {
                 🛒 Shop Online
               </a>
 
-              <a href="tel:+11234567890">
+              <a href={BUSINESS_PHONE}>
                 <button className="bg-orange-600 hover:bg-orange-700 text-white px-4 py-2 rounded-lg text-sm font-semibold cursor-pointer">
                   Call Now
                 </button>
@@ -90,7 +91,7 @@ export default function Navbar() {
             🛒 Shop Online
           </a>
 
-          <a href="tel:+11234567890">
+          <a href={BUSINESS_PHONE}>
             <button className="bg-orange-600 hover:bg-orange-700 text-white px-4 py-3 rounded-lg text-base font-semibold w-full">
               📞 Call Now
             </button>

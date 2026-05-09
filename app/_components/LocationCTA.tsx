@@ -1,4 +1,5 @@
 import { Container, Button } from "@/components/ui";
+import { BUSINESS_LOCATION, BUSINESS_PHONE } from "@/lib/businessInfo";
 
 export default function LocationCTA() {
   return (
@@ -22,16 +23,13 @@ export default function LocationCTA() {
 
           {/* CTA */}
           <div className="mt-8 flex flex-wrap gap-4">
-            <a
-              href="https://www.google.com/maps/search/?api=1&query=207+Main+Street,+City+of+Orange,+NJ+07050"
-              target="_blank"
-            >
+            <a href={BUSINESS_LOCATION} target="_blank">
               <Button className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-3 text-base font-semibold">
                 📍 Get Directions
               </Button>
             </a>
 
-            <a href="tel:+11234567890">
+            <a href={BUSINESS_PHONE}>
               <Button
                 variant="outline"
                 className="px-6 py-3 text-base font-semibold hover:text-black"

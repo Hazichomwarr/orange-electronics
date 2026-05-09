@@ -1,4 +1,9 @@
 import { Container, Button } from "@/components/ui";
+import {
+  BUSINESS_LOCATION,
+  BUSINESS_PHONE,
+  BUSINESS_SHOPIFY_LINK,
+} from "@/lib/businessInfo";
 import Image from "next/image";
 
 export default function Hero2() {
@@ -28,14 +33,14 @@ export default function Hero2() {
 
             {/* CTA */}
             <div className="mt-8 flex flex-wrap gap-4">
-              <a href="tel:+9294537790">
+              <a href={BUSINESS_PHONE}>
                 <Button className="bg-orange-600 hover:bg-orange-700 text-white px-7 py-3.5 text-base font-semibold shadow-md">
                   📞 Call Now
                 </Button>
               </a>
 
               <a
-                href="https://www.google.com/maps/search/?api=1&query=207+Main+Street,+City+of+Orange,+NJ+07050"
+                href={BUSINESS_LOCATION}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -56,7 +61,7 @@ export default function Hero2() {
             </div>
 
             <a
-              href="https://orange-electronics-5815.myshopify.com"
+              href={BUSINESS_SHOPIFY_LINK}
               target="_blank"
               className="text-sm text-neutral-600 underline hover:text-neutral-900"
             >

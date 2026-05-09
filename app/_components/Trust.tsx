@@ -1,4 +1,4 @@
-import { Button, Card, Container } from "@/components/ui";
+import { Container } from "@/components/ui";
 
 export default function Trust() {
   return (

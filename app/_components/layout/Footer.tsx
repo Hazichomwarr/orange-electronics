@@ -1,4 +1,9 @@
 import { Container } from "@/components/ui";
+import {
+  BUSINESS_LOCATION,
+  BUSINESS_PHONE,
+  BUSINESS_SHOPIFY_LINK,
+} from "@/lib/businessInfo";
 
 export default function Footer() {
   return (
@@ -39,19 +44,16 @@ export default function Footer() {
             <h4 className="text-sm font-semibold text-white">Contact</h4>
             <ul className="mt-3 space-y-2 text-sm">
               <li>
-                <a
-                  href="https://orange-electronics-5815.myshopify.com"
-                  target="_blank"
-                >
+                <a href={BUSINESS_SHOPIFY_LINK} target="_blank">
                   🛒 Shop Online
                 </a>
               </li>
               <li>
-                <a href="tel+9294537790">📞 Call</a>
+                <a href={BUSINESS_PHONE}>📞 Call</a>
               </li>
               <li>
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=207+Main+Street,+City+of+Orange,+NJ+07050"
+                  href={BUSINESS_LOCATION}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

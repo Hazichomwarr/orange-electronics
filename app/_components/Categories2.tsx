@@ -32,7 +32,7 @@ const featuredCategories = [
   {
     name: "Car Audio",
     desc: "Speakers & sound systems",
-    image: "/categories/orange-car_audios.jpg",
+    image: "/categories/orange-car-audio.jpg",
     slug: "car-audio",
   },
   {

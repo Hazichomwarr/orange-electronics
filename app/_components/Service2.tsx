@@ -1,4 +1,5 @@
 import { Container, Button } from "@/components/ui";
+import { BUSINESS_PHONE } from "@/lib/businessInfo";
 
 const services = [
   {
@@ -50,7 +51,7 @@ export default function Service2() {
 
         {/* CTA */}
         <div className="mt-10 flex items-center gap-4">
-          <a href="tel:+11234567890">
+          <a href={BUSINESS_PHONE}>
             <Button className="px-6 py-3 text-base font-semibold">
               📞 Call Now for Fast Service
             </Button>
