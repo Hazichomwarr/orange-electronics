@@ -27,7 +27,7 @@ export default function Navbar() {
                   className="object-contain"
                 />
 
-                <span className="hidden sm:block">Orange Electronics</span>
+                <span className="block">Orange Electronics</span>
               </a>
             </div>
 
