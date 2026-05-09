@@ -175,7 +175,7 @@ export const productCatalog: Product[] = [
     category: "tvs",
     desc: "Smart Samsung TVs with vivid picture quality and modern features.",
     tag: "Popular",
-    imagSrc: "/categories/phones/samsungs.jpeg",
+    imagSrc: "/categories/tvs/samsung-tv.jpg",
   },
 
   {
@@ -185,7 +185,7 @@ export const productCatalog: Product[] = [
     category: "tvs",
     desc: "Reliable LG televisions with sharp visuals and smooth streaming.",
     tag: "Popular",
-    imagSrc: "/categories/phones/samsungs.jpeg",
+    imagSrc: "/categories/tvs/lg-tv.jpg",
   },
 
   {
@@ -195,7 +195,7 @@ export const productCatalog: Product[] = [
     category: "tvs",
     desc: "Affordable smart TVs with large displays and excellent value.",
     tag: "Budget",
-    imagSrc: "/categories/phones/samsungs.jpeg",
+    imagSrc: "/categories/tvs/hisense-tv.jpg",
   },
 
   // ======================
