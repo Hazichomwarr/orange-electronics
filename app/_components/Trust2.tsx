@@ -46,11 +46,11 @@ export default function Trust2() {
           </header>
           <div className=" overflow-hidden rounded-2xl">
             <Image
-              src="/images/orange-customers.jpg"
+              src="/images/location.jpeg"
               alt="customer service"
-              width={600}
-              height={600}
-              className="rounded-2xl object-cover h-full"
+              width={450}
+              height={100}
+              className="rounded-2xl object-cover h-auto"
             />
           </div>
         </div>

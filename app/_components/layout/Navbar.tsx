@@ -2,6 +2,7 @@
 
 import { Container } from "@/components/ui";
 import { BUSINESS_PHONE } from "@/lib/businessInfo";
+import Image from "next/image";
 import { useState } from "react";
 
 export default function Navbar() {
@@ -14,7 +15,20 @@ export default function Navbar() {
           <div className="flex items-center justify-between py-4">
             {/* Logo */}
             <div className="font-semibold text-neutral-900 cursor-pointer">
-              <a href="/">Orange Electronics</a>
+              <a
+                href="/"
+                className="flex items-center gap-3 font-semibold text-neutral-900"
+              >
+                <Image
+                  src="/images/orange-electronics-logo.png"
+                  alt="Orange Electronics logo"
+                  width={42}
+                  height={42}
+                  className="object-contain"
+                />
+
+                <span className="hidden sm:block">Orange Electronics</span>
+              </a>
             </div>
 
             {/* Desktop */}
