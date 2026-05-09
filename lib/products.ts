@@ -569,4 +569,44 @@ export const productCatalog: Product[] = [
     tag: "Premium",
     imagSrc: "/categories/scooters/sport-electric.jpg",
   },
+  // ======================
+  // REPAIRS
+  // ======================
+
+  {
+    id: 53,
+    name: "Phone Screen Repair",
+    price: "$89",
+    category: "repairs",
+    desc: "Fast screen replacement service for cracked or damaged smartphone displays.",
+    tag: "Popular",
+    imagSrc: "/categories/repairs/screen-repair.jpg",
+  },
+  {
+    id: 54,
+    name: "Battery Replacement",
+    price: "$69",
+    category: "repairs",
+    desc: "Restore battery life and performance with professional battery replacement service.",
+    tag: "Best Deal",
+    imagSrc: "/categories/repairs/battery-replacement.jpg",
+  },
+  {
+    id: 55,
+    name: "Charging Port Repair",
+    price: "$79",
+    category: "repairs",
+    desc: "Repair faulty charging ports to keep your device powered and connected.",
+    tag: "Reliable",
+    imagSrc: "/categories/repairs/charging-port.jpg",
+  },
+  {
+    id: 56,
+    name: "Laptop Diagnostic Service",
+    price: "$49",
+    category: "repairs",
+    desc: "Professional troubleshooting service to identify hardware and software issues quickly.",
+    tag: "Service",
+    imagSrc: "/categories/repairs/laptop-diagnostic.jpg",
+  },
 ];
