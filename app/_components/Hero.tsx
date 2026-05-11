@@ -6,13 +6,11 @@ import {
 } from "@/lib/businessInfo";
 import Image from "next/image";
 
-export default function Hero2() {
+export default function Hero() {
   return (
     <section id="hero" className="relative bg-orange-50 py-20 md:py-28">
-      {/* subtle overlay
-      <div className="absolute inset-0 bg-black/10 transition" /> */}
       <Container>
-        <div className="grid items-center gap-12 md:grid-cols-2">
+        <div className="grid items-center gap-16 lg:grid-cols-[1fr_1.15fr]">
           {/* LEFT */}
           <div className="max-w-xl">
             {/* urgency tag */}
@@ -65,7 +63,7 @@ export default function Hero2() {
               target="_blank"
               className="text-sm text-neutral-600 underline hover:text-neutral-900"
             >
-              shop our speakers online? Browse our store →
+              🛒 Shop speakers, accessories & more online →
             </a>
           </div>
 
@@ -76,9 +74,14 @@ export default function Hero2() {
               alt="Orange Electronics store"
               width={800}
               height={600}
-              className="rounded-xl object-cover shadow-sm"
+              className="rounded-2xl object-cover shadow-2xl ring-1 ring-black/5"
               priority
             />
+            <div className="absolute top-10 left-0 h-72 w-72 rounded-full bg-orange-200/30 blur-3xl pointer-events-none" />
+            {/* Floating card */}
+            <div className="absolute bottom-1 -left-1 bg-white shadow-xl rounded-xl p-4">
+              <p className="text-sm font-semibold">⚡ We Buy Gold</p>
+            </div>
           </div>
         </div>
       </Container>

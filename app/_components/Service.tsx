@@ -8,40 +8,40 @@ import Image from "next/image";
 
 const services = [
   {
-    id: 53,
+    id: 57,
     name: "Phone Screen Repair",
-    price: "$89",
+    price: "From $89",
     desc: "Fast screen replacement service for cracked or damaged smartphone displays.",
     tag: "Most Requested",
-    imagSrc: "/categories/repairs/screen-repair.jpg",
+    imagSrc: "/categories/repairs/screen-repair.png",
   },
   {
-    id: 54,
+    id: 58,
     name: "Battery Replacement",
-    price: "$69",
+    price: "From $69",
     desc: "Restore battery life and performance with professional battery replacement service.",
     tag: "Best Deal",
-    imagSrc: "/categories/repairs/battery-replacement.jpg",
+    imagSrc: "/categories/repairs/battery-replacement.png",
   },
   {
-    id: 55,
+    id: 59,
     name: "Charging Port Repair",
-    price: "$79",
+    price: "From $79",
     desc: "Repair faulty charging ports to keep your device powered and connected.",
     tag: "Quick Fix",
-    imagSrc: "/categories/repairs/charging-port.jpg",
+    imagSrc: "/categories/repairs/port-repair.png",
   },
   {
-    id: 56,
+    id: 60,
     name: "Laptop Diagnostic Service",
-    price: "$49",
+    price: "From $49",
     desc: "Professional troubleshooting service to identify hardware and software issues quickly.",
     tag: "Professional Service",
-    imagSrc: "/categories/repairs/laptop-diagnostic.jpg",
+    imagSrc: "/categories/repairs/laptop-diagnostic.png",
   },
 ];
 
-export default function Service2() {
+export default function Service() {
   return (
     <section id="services" className="bg-neutral-50 py-20">
       <Container>

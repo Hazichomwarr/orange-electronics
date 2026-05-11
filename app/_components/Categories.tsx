@@ -52,7 +52,7 @@ const secondaryCategories = [
   "scooters",
 ];
 
-export default function Categories2() {
+export default function Categories() {
   return (
     <section id="category" className="bg-neutral-50 py-20">
       <Container>

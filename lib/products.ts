@@ -63,7 +63,7 @@ export const productCatalog: Product[] = [
   {
     id: 5,
     name: "JBL Speaker",
-    price: "From $65",
+    price: "From $50",
     category: "bluetooth-speakers",
     desc: "Premium JBL speakers with powerful bass and crystal-clear audio.",
     tag: "Popular",
@@ -73,7 +73,7 @@ export const productCatalog: Product[] = [
   {
     id: 6,
     name: "Worry-Free",
-    price: "$45",
+    price: "From $45",
     category: "bluetooth-speakers",
     desc: "Affordable wireless speakers built for everyday listening.",
     tag: "Budget",
@@ -83,7 +83,7 @@ export const productCatalog: Product[] = [
   {
     id: 7,
     name: "QFX",
-    price: "$45",
+    price: "From $45",
     category: "bluetooth-speakers",
     desc: "Compact Bluetooth speakers with strong sound and LED party effects.",
     tag: "Best Deal",
@@ -93,7 +93,7 @@ export const productCatalog: Product[] = [
   {
     id: 8,
     name: "Shure",
-    price: "$45",
+    price: "From $45",
     category: "bluetooth-speakers",
     desc: "Professional-quality audio equipment trusted by performers and DJs.",
     tag: "Premium",
@@ -107,7 +107,7 @@ export const productCatalog: Product[] = [
   {
     id: 9,
     name: "Portable Chargers",
-    price: "$15",
+    price: "From $10",
     category: "accessories",
     desc: "Fast portable charging solutions for phones, tablets, and devices.",
     tag: "Budget",
@@ -117,7 +117,7 @@ export const productCatalog: Product[] = [
   {
     id: 10,
     name: "Bluetooth Watches",
-    price: "$45",
+    price: "From $45",
     category: "accessories",
     desc: "Smart Bluetooth watches with fitness tracking and mobile connectivity.",
     tag: "Popular",
@@ -127,7 +127,7 @@ export const productCatalog: Product[] = [
   {
     id: 11,
     name: "Samsung Bluetooth Watches",
-    price: "$45",
+    price: "From $45",
     category: "accessories",
     desc: "Samsung smartwatches with sleek design and advanced mobile features.",
     tag: "Premium",
@@ -137,7 +137,7 @@ export const productCatalog: Product[] = [
   {
     id: 12,
     name: "JBL Microphone",
-    price: "$45",
+    price: "From $45",
     category: "accessories",
     desc: "Clear and reliable microphones for music, events, and performances.",
     tag: "Popular",
@@ -147,7 +147,7 @@ export const productCatalog: Product[] = [
   {
     id: 13,
     name: "AirPods",
-    price: "$95",
+    price: "From $95",
     category: "accessories",
     desc: "Wireless earbuds with immersive sound and seamless connectivity.",
     tag: "Premium",
@@ -157,7 +157,7 @@ export const productCatalog: Product[] = [
   {
     id: 14,
     name: "TV Remotes",
-    price: "$45",
+    price: "From $45",
     category: "accessories",
     desc: "Replacement TV remotes compatible with most major brands.",
     tag: "Best Deal",
@@ -205,7 +205,7 @@ export const productCatalog: Product[] = [
   {
     id: 18,
     name: "HP",
-    price: "$245",
+    price: "From $245",
     category: "laptops",
     desc: "Reliable HP laptops for work, school, and daily productivity.",
     tag: "Popular",
@@ -215,7 +215,7 @@ export const productCatalog: Product[] = [
   {
     id: 19,
     name: "Dell",
-    price: "$245",
+    price: "From $245",
     category: "laptops",
     desc: "Dell computers designed for performance, multitasking, and reliability.",
     tag: "Popular",
@@ -225,7 +225,7 @@ export const productCatalog: Product[] = [
   {
     id: 20,
     name: "Lenovo",
-    price: "$145",
+    price: "From $145",
     category: "laptops",
     desc: "Lenovo laptops with durable design and efficient everyday performance.",
     tag: "Budget",
@@ -239,7 +239,7 @@ export const productCatalog: Product[] = [
   {
     id: 21,
     name: "Commandos",
-    price: "$245",
+    price: "From $245",
     category: "car-audio",
     desc: "High-performance car audio systems built for loud and powerful sound.",
     tag: "Popular",
@@ -249,7 +249,7 @@ export const productCatalog: Product[] = [
   {
     id: 22,
     name: "B&C",
-    price: "$245",
+    price: "From $245",
     category: "car-audio",
     desc: "Professional-grade speakers engineered for premium audio performance.",
     tag: "Premium",
@@ -259,7 +259,7 @@ export const productCatalog: Product[] = [
   {
     id: 23,
     name: "Pioneer",
-    price: "$245",
+    price: "From $245",
     category: "car-audio",
     desc: "Trusted Pioneer audio systems with deep bass and clear sound quality.",
     tag: "Popular",
@@ -269,7 +269,7 @@ export const productCatalog: Product[] = [
   {
     id: 24,
     name: "DS18",
-    price: "$245",
+    price: "From $245",
     category: "car-audio",
     desc: "DS18 car audio equipment designed for extreme sound performance.",
     tag: "Premium",
@@ -279,7 +279,7 @@ export const productCatalog: Product[] = [
   {
     id: 25,
     name: "XT Audio",
-    price: "$245",
+    price: "From $245",
     category: "car-audio",
     desc: "Powerful car audio solutions for custom sound system builds.",
     tag: "Popular",
@@ -289,7 +289,7 @@ export const productCatalog: Product[] = [
   {
     id: 26,
     name: "TARAMPS",
-    price: "$245",
+    price: "From $245",
     category: "car-audio",
     desc: "High-power amplifiers and audio equipment for serious sound enthusiasts.",
     tag: "Premium",
@@ -299,7 +299,7 @@ export const productCatalog: Product[] = [
   {
     id: 27,
     name: "18 Sound",
-    price: "$245",
+    price: "From $245",
     category: "car-audio",
     desc: "Premium loudspeakers built for powerful and professional audio setups.",
     tag: "Premium",
@@ -309,7 +309,7 @@ export const productCatalog: Product[] = [
   {
     id: 28,
     name: "Kicker",
-    price: "$245",
+    price: "From $245",
     category: "car-audio",
     desc: "Kicker speakers and subwoofers delivering rich bass and clean sound.",
     tag: "Popular",
@@ -319,7 +319,7 @@ export const productCatalog: Product[] = [
   {
     id: 29,
     name: "Massive Audio",
-    price: "$245",
+    price: "From $245",
     category: "car-audio",
     desc: "Heavy-duty audio systems designed for loud and immersive performance.",
     tag: "Premium",
@@ -329,7 +329,7 @@ export const productCatalog: Product[] = [
   {
     id: 30,
     name: "Clarion",
-    price: "$245",
+    price: "From $245",
     category: "car-audio",
     desc: "Reliable car entertainment systems with modern audio features.",
     tag: "Popular",
@@ -339,7 +339,7 @@ export const productCatalog: Product[] = [
   {
     id: 31,
     name: "YR Audio",
-    price: "$245",
+    price: "From $245",
     category: "car-audio",
     desc: "Affordable sound equipment for custom vehicle audio installations.",
     tag: "Budget",
@@ -353,7 +353,7 @@ export const productCatalog: Product[] = [
   {
     id: 32,
     name: "Compustar",
-    price: "$245",
+    price: "From $245",
     category: "car-alarms",
     desc: "Advanced car security and remote-start systems for everyday protection.",
     tag: "Popular",
@@ -363,7 +363,7 @@ export const productCatalog: Product[] = [
   {
     id: 33,
     name: "Avatar",
-    price: "$245",
+    price: "From $245",
     category: "car-alarms",
     desc: "Reliable vehicle alarm systems designed for added security and convenience.",
     tag: "Popular",
@@ -377,7 +377,7 @@ export const productCatalog: Product[] = [
   {
     id: 34,
     name: "PS5",
-    price: "$245",
+    price: "From $600",
     category: "gaming",
     desc: "Next-generation PlayStation gaming with stunning graphics and fast performance.",
     tag: "Popular",
@@ -387,7 +387,7 @@ export const productCatalog: Product[] = [
   {
     id: 35,
     name: "VR2",
-    price: "$245",
+    price: "From $380",
     category: "gaming",
     desc: "Gaming accessories and entertainment systems for immersive gameplay.",
     tag: "Best Deal",
@@ -397,7 +397,7 @@ export const productCatalog: Product[] = [
   {
     id: 36,
     name: "Xbox",
-    price: "$245",
+    price: "From $750",
     category: "gaming",
     desc: "Xbox consoles and gaming gear built for smooth online and offline gaming.",
     tag: "Popular",
@@ -407,7 +407,7 @@ export const productCatalog: Product[] = [
   {
     id: 37,
     name: "PS5 Remote Control",
-    price: "$45",
+    price: "From $45",
     category: "gaming",
     desc: "Wireless PS5 controllers designed for responsive and immersive gameplay.",
     tag: "Popular",
@@ -417,7 +417,7 @@ export const productCatalog: Product[] = [
   {
     id: 38,
     name: "Xbox Remote Control",
-    price: "$45",
+    price: "From $45",
     category: "gaming",
     desc: "Comfortable Xbox controllers with precision controls for competitive gaming.",
     tag: "Popular",
@@ -431,7 +431,7 @@ export const productCatalog: Product[] = [
   {
     id: 39,
     name: "JBL Wireless Headphones",
-    price: "$45",
+    price: "From $45",
     category: "headphones",
     desc: "Comfortable wireless headphones with strong bass and all-day listening.",
     tag: "Popular",
@@ -440,7 +440,7 @@ export const productCatalog: Product[] = [
   {
     id: 40,
     name: "Skullcandy Headphones",
-    price: "$65",
+    price: "From $65",
     category: "headphones",
     desc: "Stylish over-ear headphones with powerful sound and deep bass response.",
     tag: "Popular",
@@ -449,7 +449,7 @@ export const productCatalog: Product[] = [
   {
     id: 41,
     name: "Apple AirPods",
-    price: "$245",
+    price: "From $99",
     category: "headphones",
     desc: "Premium wireless earbuds with clear sound and seamless Apple connectivity.",
     tag: "Premium",
@@ -458,7 +458,7 @@ export const productCatalog: Product[] = [
   {
     id: 42,
     name: "Sony Bluetooth Headphones",
-    price: "$95",
+    price: "From $95",
     category: "headphones",
     desc: "Reliable Sony headphones with balanced audio and comfortable fit.",
     tag: "Popular",
@@ -467,7 +467,7 @@ export const productCatalog: Product[] = [
   {
     id: 43,
     name: "MONICA Wireless Earbuds",
-    price: "$35",
+    price: "From $35",
     category: "headphones",
     desc: "Affordable Bluetooth earbuds perfect for music, calls, and daily use.",
     tag: "Budget",
@@ -476,7 +476,7 @@ export const productCatalog: Product[] = [
   {
     id: 44,
     name: "RCA Bluetooth Headphones",
-    price: "$55",
+    price: "From $55",
     category: "headphones",
     desc: "Wireless RCA headphones with crisp sound and long battery life.",
     tag: "Budget",
@@ -490,7 +490,7 @@ export const productCatalog: Product[] = [
   {
     id: 45,
     name: "Professional XLR Audio Cables",
-    price: "$25",
+    price: "From $25",
     category: "dj-stuff",
     desc: "Durable DJ and studio audio cables designed for clean, reliable sound connections.",
     tag: "Popular",
@@ -499,7 +499,7 @@ export const productCatalog: Product[] = [
   {
     id: 46,
     name: "RCA & Audio Connector Cables",
-    price: "$20",
+    price: "From $20",
     category: "dj-stuff",
     desc: "Essential DJ and speaker connection cables for mixers, amplifiers, and sound systems.",
     tag: "Popular",
@@ -508,7 +508,7 @@ export const productCatalog: Product[] = [
   {
     id: 47,
     name: "DJ Speaker System",
-    price: "$320",
+    price: "From $320",
     category: "dj-stuff",
     desc: "High-powered DJ speakers with deep bass and loud, clear sound for events and parties.",
     tag: "Premium",
@@ -522,7 +522,7 @@ export const productCatalog: Product[] = [
   {
     id: 48,
     name: "Fat Tire Electric Bike",
-    price: "$1299",
+    price: "From $1299",
     category: "ebikes",
     desc: "Powerful electric bike with fat tires, LED lights, and long-range battery performance.",
     tag: "Popular",
@@ -531,7 +531,7 @@ export const productCatalog: Product[] = [
   {
     id: 49,
     name: "Compact City E-Bike",
-    price: "$1099",
+    price: "From $1099",
     category: "ebikes",
     desc: "Comfortable foldable-style electric bike built for city riding and everyday commuting.",
     tag: "Popular",
@@ -545,7 +545,7 @@ export const productCatalog: Product[] = [
   {
     id: 50,
     name: "Electric Kick Scooter",
-    price: "$499",
+    price: "From $499",
     category: "scooters",
     desc: "Portable electric scooter with strong motor power and smooth urban riding.",
     tag: "Popular",
@@ -553,7 +553,7 @@ export const productCatalog: Product[] = [
   },
   {
     id: 51,
-    name: "T-Pro Motor Scooter",
+    name: "From T-Pro Motor Scooter",
     price: "$1899",
     category: "scooters",
     desc: "Street-ready motor scooter designed for reliable transportation and comfortable riding.",
@@ -563,7 +563,7 @@ export const productCatalog: Product[] = [
   {
     id: 52,
     name: "Sport Electric Scooter",
-    price: "$1599",
+    price: "From $1599",
     category: "scooters",
     desc: "Modern sporty scooter with aggressive styling, LED lighting, and smooth acceleration.",
     tag: "Premium",
@@ -576,7 +576,7 @@ export const productCatalog: Product[] = [
   {
     id: 53,
     name: "Phone Screen Repair",
-    price: "$89",
+    price: "From $79",
     category: "repairs",
     desc: "Fast screen replacement service for cracked or damaged smartphone displays.",
     tag: "Popular",
@@ -585,7 +585,7 @@ export const productCatalog: Product[] = [
   {
     id: 54,
     name: "Battery Replacement",
-    price: "$69",
+    price: "From $69",
     category: "repairs",
     desc: "Restore battery life and performance with professional battery replacement service.",
     tag: "Best Deal",
@@ -594,7 +594,7 @@ export const productCatalog: Product[] = [
   {
     id: 55,
     name: "Charging Port Repair",
-    price: "$79",
+    price: "From $79",
     category: "repairs",
     desc: "Repair faulty charging ports to keep your device powered and connected.",
     tag: "Reliable",
@@ -603,7 +603,7 @@ export const productCatalog: Product[] = [
   {
     id: 56,
     name: "Laptop Diagnostic Service",
-    price: "$49",
+    price: "From $49",
     category: "repairs",
     desc: "Professional troubleshooting service to identify hardware and software issues quickly.",
     tag: "Service",

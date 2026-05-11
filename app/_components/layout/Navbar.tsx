@@ -20,11 +20,11 @@ export default function Navbar() {
                 className="flex items-center gap-3 font-semibold text-neutral-900"
               >
                 <Image
-                  src="/images/orange-electronics-logo.png"
+                  src="/images/logo.png"
                   alt="Orange Electronics logo"
-                  width={42}
-                  height={42}
-                  className="object-contain"
+                  width={52}
+                  height={52}
+                  className="object-contain rounded-3xl"
                 />
 
                 <span className="block">Orange Electronics</span>
